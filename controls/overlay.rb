@@ -2,6 +2,16 @@
 
 include_controls 'crunchy-data-postgresql-stig-baseline' do
 
+  control 'V-233515' do
+    impact 0.0
+    desc 'caveat', 'This is Not Applicable since the related security control is not applied to this system categorization in CMS ARS 3.1'
+  end
+
+  control 'V-233516' do
+    impact 0.0
+    desc 'caveat', 'This is Not Applicable since the related security control is not applied to this system categorization in CMS ARS 3.1'
+  end
+
   control "V-233517" do
     impact 0.0
     desc 'caveat', 'This is Not Applicable since the related security control is not included in CMS ARS 3.1'
@@ -43,11 +53,31 @@ include_controls 'crunchy-data-postgresql-stig-baseline' do
     desc 'caveat', 'This is Not Applicable since the related security control is not included in CMS ARS 3.1'
   end
 
+  control 'V-233526' do
+    impact 0.0
+    desc 'caveat', 'This is Not Applicable since the related security control is not applied to this system categorization in CMS ARS 3.1'
+  end
+
+  control 'V-233527' do
+    impact 0.0
+    desc 'caveat', 'This is Not Applicable since the related security control is not applied to this system categorization in CMS ARS 3.1'
+  end
+
+  control 'V-233528' do
+    impact 0.0
+    desc 'caveat', 'This is Not Applicable since the related security control is not applied to this system categorization in CMS ARS 3.1'
+  end
+
   control "V-233530" do
     impact 0.0
     desc 'caveat', 'This is Not Applicable since the related security control is not included in CMS ARS 3.1'
   end
   
+  control 'V-233533' do
+    impact 0.0
+    desc 'caveat', 'This is Not Applicable since the related security control is not applied to this system categorization in CMS ARS 3.1'
+  end
+
   control 'V-233535' do
     impact 0.0
     desc 'caveat', 'This is Not Applicable since the related security control is not applied to this system categorization in CMS ARS 3.1'
@@ -68,6 +98,11 @@ include_controls 'crunchy-data-postgresql-stig-baseline' do
     desc 'caveat', 'This is Not Applicable since the related security control is not included in CMS ARS 3.1'
   end
   
+  control 'V-233542' do
+    impact 0.0
+    desc 'caveat', 'This is Not Applicable since the related security control is not applied to this system categorization in CMS ARS 3.1'
+  end
+
   control "V-233543" do
     impact 0.0
     desc 'caveat', 'This is Not Applicable since the related security control is not included in CMS ARS 3.1'
@@ -108,6 +143,8 @@ include_controls 'crunchy-data-postgresql-stig-baseline' do
   end
 
   control 'V-233577' do
+    impact 0.0
+    desc 'caveat', 'This is Not Applicable since the related security control is not applied to this system categorization in CMS ARS 3.1'
     desc 'The CMS standard for authentication is CMS-approved PKI certificates.
 
     A certificate certification path is the path from the end entity certificate to a trusted root certification authority (CA). Certification path validation is necessary for a relying party to make an informed decision regarding acceptance of an end entity certificate. Certification path validation includes checks such as certificate issuer trust, time validity and revocation status for each certificate in the certification path. Revocation status information for CA and subject certificates in a certification path is commonly provided via certificate revocation lists (CRLs) or online certificate status protocol (OCSP) responses.
@@ -175,6 +212,11 @@ include_controls 'crunchy-data-postgresql-stig-baseline' do
     desc 'caveat', 'This is Not Applicable since the related security control is not included in CMS ARS 3.1'
   end
   
+  control 'V-233588' do
+    impact 0.0
+    desc 'caveat', 'This is Not Applicable since the related security control is not applied to this system categorization in CMS ARS 3.1'
+  end
+
   control "V-233589" do
     impact 0.0
     desc 'caveat', 'This is Not Applicable since the related security control is not included in CMS ARS 3.1'
@@ -270,6 +312,8 @@ include_controls 'crunchy-data-postgresql-stig-baseline' do
   end
 
   control 'V-233602' do
+    impact 0.0
+    desc 'caveat', 'This is Not Applicable since the related security control is not applied to this system categorization in CMS ARS 3.1'
     desc 'The CMS standard for authentication is CMS-approved PKI certificates. PKI certificate-based authentication is performed by requiring the certificate holder to cryptographically prove possession of the corresponding private key.
 
     If the private key is stolen, an attacker can use the private key(s) to impersonate the certificate holder. In cases where PostgreSQL-stored private keys are used to authenticate PostgreSQL to the system, clients, loss of the corresponding private keys would allow an attacker to successfully perform undetected man-in-the-middle attacks against PostgreSQL system and its clients.
@@ -316,8 +360,28 @@ include_controls 'crunchy-data-postgresql-stig-baseline' do
     desc 'caveat', 'This is Not Applicable since the related security control is not included in CMS ARS 3.1'
   end
 
+  control 'V-233613' do
+    impact 0.0
+    desc 'caveat', 'This is Not Applicable since the related security control is not applied to this system categorization in CMS ARS 3.1'
+  end
+
+  control 'V-233614' do
+    impact 0.0
+    desc 'caveat', 'This is Not Applicable since the related security control is not applied to this system categorization in CMS ARS 3.1'
+  end
+
   control 'V-233615' do
     desc 'The CMS standard for authentication is CMS-approved PKI certificates. Once a PKI certificate has been validated, it must be mapped to PostgreSQL user account for the authenticated identity to be meaningful to PostgreSQL and useful for authorization decisions.'
+  end
+
+  control 'V-233616' do
+    impact 0.0
+    desc 'caveat', 'This is Not Applicable since the related security control is not applied to this system categorization in CMS ARS 3.1'
+  end
+
+  control 'V-233617' do
+    impact 0.0
+    desc 'caveat', 'This is Not Applicable since the related security control is not applied to this system categorization in CMS ARS 3.1'
   end
 
 end
