@@ -1,10 +1,10 @@
-name: cms-ars-3.1-moderate-crunchy-data-postgresql-stig-overlay
-title: cms-ars-3.1-moderate-crunchy-data-postgresql-stig-overlay
+name: cms-ars-3.1-low-crunchy-data-postgresql-stig-overlay
+title: cms-ars-3.1-low-crunchy-data-postgresql-stig-overlay
 maintainer: CMS InSpec Dev team
 copyright: 
 copyright_email: 
 license: Apache-2.0
-summary: "CMS ARS 3.1 Moderate Overlay InSpec Validation Profile for Crunchy Data PostgreSQL STIG"
+summary: "CMS ARS 3.1 Low Overlay InSpec Validation Profile for Crunchy Data PostgreSQL STIG"
 version: 1.1.0
 inspec_version: ">= 4.0"
 
